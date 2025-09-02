@@ -12,7 +12,7 @@ const { isLeft } = useLayoutMode();
 const appStore = useAppStore();
 
 const settingsStore = useSettingsStore();
-const val = ref(false);
+const val = ref(true);
 
 const { showTagsView, fixedHeader } = storeToRefs(settingsStore);
 
